@@ -1,0 +1,88 @@
+#title
+{
+	position	: 	absolute;
+	top		:	10%;
+	width		:	90%;
+	text-align	:	center;
+	font-family	:	trebuchet ms, arial, ms-serif;
+	font-size	:	14pt;
+	font-weight	:	bold;	
+}
+#instructions
+{
+	position	: 	absolute;
+	top		:	30%;
+	width		:	90%;
+	font-family	:	trebuchet ms, arial, ms-serif;
+	font-size	:	10pt;
+}	
+.instructionBox
+{
+	text-align	:	center;
+	border-top	:	1px solid #000000;
+	border-left	:	1px solid #000000;
+	border-right	:	1px solid #cccccc;
+	border-bottom	:	1px solid #cccccc;
+	width		:	50%;
+	height		:	50px;
+	font-family	:	trebuchet ms, arial, ms-serif;
+	font-size	:	12pt;
+	font-weight	:	bold;
+	overflow	:	hidden;
+}
+#button
+{
+	position	: 	absolute;
+	top		:	50%;
+	width		:	90%;
+	text-align	:	center;
+	font-family	:	trebuchet ms, arial, ms-serif;
+	font-size	:	10pt;
+}
+#participants
+{
+	position	: 	absolute;
+	top		:	80%;
+	width		:	90%;
+	text-align	:	center;
+	font-family	:	trebuchet ms, arial, ms-serif;
+	font-size	:	10pt;
+}
+
+#participant
+{
+	width		:	100px;
+	height		:	60px;
+	text-align	:	center;
+	background-color:	#ff0000;
+	color		:	#ffffff;
+	font-weight	:	bold;
+}
+.newTurn
+{
+	font-family	:	trebuchet ms, arial, ms-serif;
+	font-size	:	12pt;
+	font-weight	:	bold;
+	
+}
+td
+{
+	font-family	:	trebuchet ms, arial, ms-serif;
+	font-size	:	10pt;
+}
+
+/* input fields */
+input, textarea, select, .input
+{
+	border: 1px solid #9B9BB0;
+	font: 10px verdana, arial, helvetica, sans-serif;
+	padding:1px 3px;
+}
+
+table.players td {
+	font: 10px verdana, arial, helvetica, sans-serif;
+}
+
+table.players th {
+	text-align: left;
+}
