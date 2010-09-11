@@ -1,12 +1,14 @@
 #!/usr/bin/perl
 use Mojolicious::Lite;
+use File::Basename;
 
 plugin i18n => {default => 'en', namespace => 'DrinkingGame::I18N'};
 
+app->static->root(File::Basename::dirname(app->static->root) . '/static');
+
+
 # /
 get '/' => 'index';
-
-#get '/favicon' => 'index';
 
 app->start;
 
