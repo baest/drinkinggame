@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>Drinking game v 1.9</title>
+	<!--link media="all" type="text/css" rel="stylesheet" href="/styles/global.css" / -->
+</head>
+<body>
+	<form method="post">
+	<div id="players">
+		<table class="players">
+			<tr class="player" id="h0">
+				<th colspan="4">Drinking game <%=l 'player' %> <span class="id">1</span></th>
+			</tr>
+			<tr class="player" id="p0">
+				<td><%=l 'Name' %>:</td>
+				<td><input type="text" name="player" value="" /></td>
+				<td><%=l 'Password' %>:</td>
+				<td><input type="password" name="password" value="" /></td>
+				<td><%=l 'Colour' %>:</td>
+				<td>
+					<select name="color" onchange="change_color(this);" class="colorSelect"></select>
+				</td>
+			<td><input type="button" value="<%=l 'New player' %>" onclick="copy_player(this.parentNode.parentNode);return false;" /></td>
+			</tr>
+		</table>
+	</div>
+	<input type="submit" value="<%=l 'Start game' %>" />
+	</form>
+	<!--script src="http://ajax.googleapis.com/ajax/libs/dojo/1.5/dojo/dojo.xd.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/scripts/global.js"></script-->
+</body>
+</html>
