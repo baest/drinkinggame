@@ -23,6 +23,7 @@ Usability changes
 		* uses ajaj to get new turn information, maybe also updating player stats
 
 New color picker, maybe
+
 http://www.syronex.com/software/jquery-color-picker
 
 Installation
