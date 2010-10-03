@@ -10,8 +10,8 @@ Usability changes
 * Create game ->
 
 	* Add new player
-	* Login and add player to game
-	* Create new player
+		* Add registered user to game
+		* Create new player (save player)
 
 	* Play game
 		* Play with fairness/or not
